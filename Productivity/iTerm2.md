@@ -38,3 +38,16 @@ vim ~/.zshrc
 ```
 
 Enjoy!
+
+
+### key bindings 
+
+Added profile.
+```
+Move left between words: cmd ⌘← | send escape sequence | b
+Move right between words: cmd ⌘→ | send escapes sequence | f
+Start of the line: Shift ⇧ ← | send hex code | 0x01 or send escape sequence | [H
+End of the line : Shift ⇧→ | send hex code | 0x05 or send escape sequence | [F
+Delete previous word cmd ⌘←Delete | send hex code | 0x17
+Delete entire line Shift ⇧←Delete | send hex code | 0x15
+```
