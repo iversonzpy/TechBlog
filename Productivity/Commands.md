@@ -40,3 +40,21 @@ touch a\ b.pdf
 rnfile a\ b.pdf
 ```
 File 'a b.pdf' will be renamed to 'a_b.pdf'.
+
+### 2. How To SSH Into A Particular Directory On Linux ###
+
+Ref: [How To SSH Into A Particular Directory On Linux](https://www.ostechnix.com/how-to-ssh-into-a-particular-directory-on-linux/)
+
+on remoter server:
+
+```
+vim ~/.bash_profile
+cd /path/to/folder >& /dev/null
+source ~/.bash_profile
+```
+
+Or on local machine:
+
+```
+ssh -t ur-name@ur-remoter-server-ip 'cd /path/to/folder ; bash'
+```
